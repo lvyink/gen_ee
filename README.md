@@ -18,6 +18,7 @@
 
 
 ##目录设置
+
 ```
 gen-ee
 ├── data
@@ -44,6 +45,7 @@ gen-ee
 
 
 ##准备
+
 可以通过以下方式下载单个wikievents数据文件
 - `wget https://gen-arg-data.s3.us-east-2.amazonaws.com/wikievents/data/<split>.jsonl` 
 其中 split={train, dev,test},保存路径为data/wikievents.
@@ -73,5 +75,6 @@ en_core_web_sm-2.3.0可通过如下指令安装
 
 
 ###参考
+
 https://github.com/raspberryice/gen-arg
 
