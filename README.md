@@ -17,7 +17,7 @@
 - WikiEvents (Available here [s3://gen-arg-data/wikievents/])
 
 
-##目录设置
+## 目录设置
 
 ```
 gen-ee
@@ -44,7 +44,7 @@ gen-ee
 ```
 
 
-##准备
+## 准备
 
 可以通过以下方式下载单个wikievents数据文件
 - `wget https://gen-arg-data.s3.us-east-2.amazonaws.com/wikievents/data/<split>.jsonl` 
@@ -74,7 +74,7 @@ en_core_web_sm-2.3.0可通过如下指令安装
 - 然后运行scripts/train_rams.sh进行训练以及scripts/test_rams.sh进行测试
 
 
-###参考
+### 参考
 
 https://github.com/raspberryice/gen-arg
 
